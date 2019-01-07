@@ -119,10 +119,10 @@ var onclick = function () {
 var cube = createCube();
 scene.add(cube);
 
-var background = sprite('textures/back.jpg',512);
+var background = sprite('./textures/back.jpg',512);
 scene.add(background);
 
-var actor = sprite('textures/actor.png',128);
+var actor = sprite('./textures/actor.png',128);
 scene.add(actor);
 
 function render() {
